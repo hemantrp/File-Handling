@@ -13,6 +13,7 @@ int main() {
     out<<s;
     out.close();
 
+	//read data from file
     ifstream in("text.txt");
     in>>s1;
 
