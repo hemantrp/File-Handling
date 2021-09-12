@@ -5,6 +5,7 @@ using namespace std;
 int main() {
     string s;
     string s1;
+	//stream for writing into file
     ofstream out("text.txt");
 
     cout<<"Enter data which you want to add into file :";
