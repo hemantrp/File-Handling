@@ -14,6 +14,7 @@ int main() {
     out<<s;
     out.close();
 
+	//stream for reading from file
     ifstream in("text.txt");
     in>>s1;
 
